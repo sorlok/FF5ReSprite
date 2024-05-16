@@ -202,6 +202,8 @@ namespace WinGui
             // Enable remaining components
             lblCharaNames.Visible = readyToGo;
             tblCharaNames.Visible = readyToGo;
+            lblNpcs.Visible = readyToGo;
+            tblNpcNames.Visible = readyToGo;
             btnApply.Enabled = readyToGo;
             btnCleanse.Enabled = readyToGo;
 

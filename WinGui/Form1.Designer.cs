@@ -67,7 +67,7 @@
             lblStatus = new Label();
             contextMenuStrip1 = new ContextMenuStrip(components);
             btnCleanse = new Button();
-            tableLayoutPanel1 = new TableLayoutPanel();
+            tblNpcNames = new TableLayoutPanel();
             cbExdeath = new ComboBox();
             cbGilgamesh = new ComboBox();
             cbTycoon = new ComboBox();
@@ -88,7 +88,7 @@
             ((System.ComponentModel.ISupportInitialize)picBoxGaluf).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picBoxLenna).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picBoxBartz).BeginInit();
-            tableLayoutPanel1.SuspendLayout();
+            tblNpcNames.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)picBoxExdeath).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picBoxGilgamesh).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picBoxTycoon).BeginInit();
@@ -562,40 +562,40 @@
             btnCleanse.UseVisualStyleBackColor = true;
             btnCleanse.Click += btnCleanse_Click;
             // 
-            // tableLayoutPanel1
+            // tblNpcNames
             // 
-            tableLayoutPanel1.ColumnCount = 4;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 139F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50.96154F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 49.03846F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 344F));
-            tableLayoutPanel1.Controls.Add(cbExdeath, 1, 2);
-            tableLayoutPanel1.Controls.Add(cbGilgamesh, 1, 1);
-            tableLayoutPanel1.Controls.Add(cbTycoon, 1, 0);
-            tableLayoutPanel1.Controls.Add(picBoxExdeath, 2, 2);
-            tableLayoutPanel1.Controls.Add(picBoxGilgamesh, 2, 1);
-            tableLayoutPanel1.Controls.Add(picBoxTycoon, 2, 0);
-            tableLayoutPanel1.Controls.Add(txtGilgamesh, 3, 1);
-            tableLayoutPanel1.Controls.Add(txtExdeath, 3, 2);
-            tableLayoutPanel1.Controls.Add(lblTycoon, 0, 0);
-            tableLayoutPanel1.Controls.Add(lblGilgamesh, 0, 1);
-            tableLayoutPanel1.Controls.Add(lblExdeath, 0, 2);
-            tableLayoutPanel1.Controls.Add(txtTycoon, 3, 0);
-            tableLayoutPanel1.Location = new Point(725, 154);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 5;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 51.6129036F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 48.3870964F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 44F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 47F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 42F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.Size = new Size(587, 227);
-            tableLayoutPanel1.TabIndex = 101;
+            tblNpcNames.ColumnCount = 4;
+            tblNpcNames.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 139F));
+            tblNpcNames.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50.96154F));
+            tblNpcNames.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 49.03846F));
+            tblNpcNames.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 344F));
+            tblNpcNames.Controls.Add(cbExdeath, 1, 2);
+            tblNpcNames.Controls.Add(cbGilgamesh, 1, 1);
+            tblNpcNames.Controls.Add(cbTycoon, 1, 0);
+            tblNpcNames.Controls.Add(picBoxExdeath, 2, 2);
+            tblNpcNames.Controls.Add(picBoxGilgamesh, 2, 1);
+            tblNpcNames.Controls.Add(picBoxTycoon, 2, 0);
+            tblNpcNames.Controls.Add(txtGilgamesh, 3, 1);
+            tblNpcNames.Controls.Add(txtExdeath, 3, 2);
+            tblNpcNames.Controls.Add(lblTycoon, 0, 0);
+            tblNpcNames.Controls.Add(lblGilgamesh, 0, 1);
+            tblNpcNames.Controls.Add(lblExdeath, 0, 2);
+            tblNpcNames.Controls.Add(txtTycoon, 3, 0);
+            tblNpcNames.Location = new Point(725, 154);
+            tblNpcNames.Name = "tblNpcNames";
+            tblNpcNames.RowCount = 5;
+            tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Percent, 51.6129036F));
+            tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Percent, 48.3870964F));
+            tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 44F));
+            tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 47F));
+            tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 42F));
+            tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tblNpcNames.Size = new Size(587, 227);
+            tblNpcNames.TabIndex = 101;
             // 
             // cbExdeath
             // 
@@ -751,7 +751,7 @@
             AutoScaleDimensions = new SizeF(12F, 24F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1372, 720);
-            Controls.Add(tableLayoutPanel1);
+            Controls.Add(tblNpcNames);
             Controls.Add(lblNpcs);
             Controls.Add(lblStatus);
             Controls.Add(btnApply);
@@ -781,8 +781,8 @@
             ((System.ComponentModel.ISupportInitialize)picBoxGaluf).EndInit();
             ((System.ComponentModel.ISupportInitialize)picBoxLenna).EndInit();
             ((System.ComponentModel.ISupportInitialize)picBoxBartz).EndInit();
-            tableLayoutPanel1.ResumeLayout(false);
-            tableLayoutPanel1.PerformLayout();
+            tblNpcNames.ResumeLayout(false);
+            tblNpcNames.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)picBoxExdeath).EndInit();
             ((System.ComponentModel.ISupportInitialize)picBoxGilgamesh).EndInit();
             ((System.ComponentModel.ISupportInitialize)picBoxTycoon).EndInit();
@@ -830,7 +830,7 @@
         private ComboBox cbGaluf;
         private ComboBox cbLenna;
         private Button btnCleanse;
-        private TableLayoutPanel tableLayoutPanel1;
+        private TableLayoutPanel tblNpcNames;
         private ComboBox cbTycoon;
         private ComboBox cbGilgamesh;
         private ComboBox cbExdeath;
