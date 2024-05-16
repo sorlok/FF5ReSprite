@@ -3,7 +3,7 @@ FF5 "Re Sprite" is a small tool that allows you to change the names and sprites 
 
 It was developed as part of the Tournament held by White Giant RPG Studios, LLC (WGRPG), to allow us to personalize our parties while racing through FF5. In short, it turns the main game into this:
 
-<TODO_IMAGE>
+![Screenshot of the mod, with characters and names changed.](www_img/sample.png)
 
 # License Notes
 This project is licensed under the MIT License, but certain modules in the "in" folder have their own license files. Anything in the "sprites" folder is using a non-commercial license,
@@ -16,7 +16,7 @@ Next, download the latest Release <TODO_LINK> and unzip all of the files into so
 
 Now, click on "FF5_MultiTool.exe", and you will be greeted with a screen similar to the following:
 
-<TODO_IMAGE>
+![Screenshot of the mod's installation window.](www_img/01_install.png)
 
 The "ACTION NEEDED" line will help guide you through the installation of the mod. If you have BepInEx and Magicite installed already, you may not see any "ACTION NEEDED" entries at all.
 If so (or if you prefer to install these manually), then proceed to the next section. Otherwise, do the following:
@@ -30,7 +30,7 @@ Make sure you are patient --some of these steps can take a while! Eventually, yo
 # Using the Mod
 You'll know you're ready to start using the mod when you see the following:
 
-<TODO_IMAGE>
+![Screenshot of the mod's name/sprite change window.](www_img/03_main.png)
 
 You can change each character's name by typing into each Text Box, and you can change their sprite by clicking the ">>" next to their image and choosing a new one.
 In addition to mixing up the in-game graphics, you'll also see custom graphics for some of the members of WGRPG. 
