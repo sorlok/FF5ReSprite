@@ -19,3 +19,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+NOTE: Files in the "sprites" directory have their own LICENSE file; they are NOT
+      covered under the same license as the rest of the files in this repository.
+      (In short, if you are using this project to create a *commercial* product,
+       you must remove the entries from the *sprites* directory.)
+
+NOTE: Files in the "in" directory have their own LICENSE files; they are NOT
+      covered under the same license as the rest of the files in this repository.
