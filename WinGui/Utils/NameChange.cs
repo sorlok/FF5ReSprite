@@ -82,7 +82,7 @@ namespace WinGui.Utils
             chNames.AddEntry(new Dictionary<string, string>{
                 { "id" , "7" },
                 { "character_id" , "6" },
-                { "tag_name" , "KING TYCOON" },
+                { "tag_name" , "KING_TYCOON" },
                 { "mes_id_name" , "MSG_CHAR_NAME_07" },
             });
             chNames.AddEntry(new Dictionary<string, string>{
@@ -110,7 +110,7 @@ namespace WinGui.Utils
                 { "Galuf" , "(GALUF)" },
                 { "Faris" , "(FARIS)" },
                 { "Krile" , "(KRILE)" },
-                { "King Tycoon" , "(KING TYCOON)" },
+                { "King Tycoon" , "(KING_TYCOON)" },
                 { "Gilgamesh" , "(GILGAMESH)" },
                 { "Exdeath" , "(EXDEATH)" },
             };
