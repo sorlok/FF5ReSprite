@@ -1,7 +1,10 @@
 # What is This?
 FF5 "Re Sprite" is a small tool that allows you to change the names and sprites for player characters and some NPCs in Final Fantasy V (Pixel Remaster) for Steam. 
 
-It was developed as part of the Tournament held by White Giant RPG Studios, LLC (WGRPG), to allow us to personalize our parties while racing through FF5. In short, it turns the main game into this:
+It was developed as part of the Tournament held by White Giant RPG Studios, LLC (WGRPG), to allow us to personalize our parties while racing through FF5. (We're the folks who develop the Last Dream series:
+https://store.steampowered.com/app/266230/Last_Dream )
+
+In short, it turns the main game into this:
 
 ![Screenshot of the mod, with characters and names changed.](www_img/sample.png)
 
