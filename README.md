@@ -5,6 +5,10 @@ It was developed as part of the Tournament held by White Giant RPG Studios, LLC 
 
 ![Screenshot of the mod, with characters and names changed.](www_img/sample.png)
 
+A writeup of this tool with some WGRPG perspective is here:
+
+<TODO_BLOG_POST>
+
 # License Notes
 This project is licensed under the MIT License, but certain modules in the "in" folder have their own license files. Anything in the "sprites" folder is using a non-commercial license,
 so please remove the "sprites" if you use this to make a commercial product. Please read all LICENSE files for the exact details.
@@ -12,7 +16,7 @@ so please remove the "sprites" if you use this to make a commercial product. Ple
 # Installation
 First, install the .NET runtime: https://dotnet.microsoft.com/en-us/download
 
-Next, download the latest Release <TODO_LINK> and unzip all of the files into some folder.
+Next, download the latest Release (https://github.com/sorlok/FF5ReSprite/releases) and unzip all of the files into some folder.
 
 Now, click on "FF5_MultiTool.exe", and you will be greeted with a screen similar to the following:
 
@@ -46,23 +50,31 @@ Bartz enters the Tycoon Meteor area if you want to change the names of Bartz, Le
 Graphics changes (and NPC name changes) should take effect at any time. (If you wanted to change your party members names after they join, you'd have to edit your
 save files --this is possible, but it's outside the scope of this project.)
 
-TODO: confirm NPC names do change whenever.
+**Note on Sprite Changes**: This program ONLY changes the map sprites for each character; it does not touch the battle sprites.
+It would be pretty easy to extend this tool to modify battle sprites too, but I'd need 22 jobs X 6 WGRPG friends X 12 animation frames == way too much time/money for the end result.
+If you want to do a total conversion mod for your FF5 friend group, more power to you!
 
 # Custom Graphics
 This mod allows you to add your own custom sprites to the drop-down menus! Here's how to do that:
 * Make a copy of the "Custom_Template.png" file here: https://github.com/sorlok/FF5ReSprite/blob/main/Custom_Template.png
-** ...call it "Custom_Bob.png" if you are making a sprite for "Bob", and put it into the "sprites" folder.
+  * ...call it "Custom_Bob.png" if you are making a sprite for "Bob", and put it into the "sprites" folder.
 * Edit your "Custom_Bob.png" file, and put a 16x16 sprite in each of the designated areas. I've put the in-game name of the "action" for each sprite, so "HandsUp_00", for example, is the first frame in the raised-hand animation.
-** If you're not sure what each "action" means, look at the existing sprites for inspiration (Andrew Sprite sheet.png, Josh Sprite sheet.png, etc.)
+  * If you're not sure what each "action" means, look at the existing sprites for inspiration (Andrew Sprite sheet.png, Josh Sprite sheet.png, etc.)
 * Now restart the "FF5_MultiTool.exe" program --you should now see your custom sprite "Bob" in the drop-down list for each character or NPC!
 
 # Manual UnInstall
 
-TODO: explain
+If you ever get the program into a **really** weird state, you can **manually** uninstall everything via the following steps.
+Note that this should rarely be necessary --most of the time, you can just click the "UnInstall" button from the MultiTool app.
+1. Right-click on FF5 in Steam, and choose "Properties...", then click "Installed Files" in the window that opens.
+2. Click on "Browse..." and Windows will open a File Explorer window showing you various FF5-related files and folders, including "FINAL FANTASY V.exe".
+3. Delete ALL of the files shown in that folder. This includes the "FINAL FANTASY V.exe" file, the "FINAL FANTASY V_Data" folder, and others. (Don't worry, your save files are NOT stored here.)
+4. Back in Steam, right-click on FF5 and choose "Properties...", then "Installed Files" again. Now, click "Verify integrity of game files". Steam will scan the folder you just deleted and re-download all of the necessary FF5 files. 
 
 # Steam Directory Not Found?
 
-TODO: Custom steam dir
+If you have installed Steam into a non-default directory, the MultiTool may complain that it can't find your Steam installation of FF5.
+If that happens, just click the "Choose..." button at the top of the screen and browse to the folder where you installed FF5.
 
 # Disclaimer
 
@@ -74,15 +86,13 @@ your own needs if you're interested in that! (In which case, please follow the t
 
 # Credits
 
-TODO: code + art credits
+First and foremost, thanks to our graphics artist Carvel, who made our custom sprites and was a pleasure to work with. Link:
+* https://www.instagram.com/pixelcarvel/
 
-
-# TODO: more sections
-
-steam dir, manual uninstall, custom graphics, disclaimer, credits (art + code) etc.
-
-
-
- 
-
+In addition:
+* Thanks to Silvris and the BepInEx team for the mod frameworks that make this possible (Magicite and BepInEx). Links:
+  * https://github.com/Silvris/Magicite
+  * https://github.com/BepInEx/BepInEx
+* Thanks to Anub1sR0cks for the Pixel Remaster Save File Editor. We don't use it in this project, but it really helped me understand what was going on behind the scenes. Link:
+  * https://github.com/Anub1sR0cks/FFPRSaveEditor
 
