@@ -38,7 +38,7 @@ You'll know you're ready to start using the mod when you see the following:
 
 ![Screenshot of the mod's name/sprite change window.](www_img/03_main.png)
 
-You can change each character's name by typing into each Text Box, and you can change their sprite by clicking the ">>" next to their image and choosing a new one.
+You can change each character's name by typing into each Text Box, and you can change their sprite by clicking their image and choosing a new one.
 In addition to mixing up the in-game graphics, you'll also see custom graphics for some of the members of WGRPG. 
 Make whatever changes you want, then click "Apply Changes". You'll see some green confirmation text --at this point, you can load up FF5 and you'll see your
 custom names and graphics!
