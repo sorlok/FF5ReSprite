@@ -1,8 +1,7 @@
 # What is This?
 FF5 "Re Sprite" is a small tool that allows you to change the names and sprites for player characters and some NPCs in Final Fantasy V (Pixel Remaster) for Steam. 
 
-It was developed as part of the Tournament held by White Giant RPG Studios, LLC (WGRPG), to allow us to personalize our parties while racing through FF5. (We're the folks who develop the Last Dream series:
-https://store.steampowered.com/app/266230/Last_Dream )
+It was developed as part of the Tournament held by White Giant RPG Studios, LLC (WGRPG), to allow us to personalize our parties while racing through FF5. (We're the folks who develop the [Last Dream](https://store.steampowered.com/app/266230/Last_Dream) series:)
 
 In short, it turns the main game into this:
 
@@ -10,7 +9,7 @@ In short, it turns the main game into this:
 
 A writeup of this tool with some WGRPG perspective is here:
 
-<TODO_BLOG_POST>
+https://www.patreon.com/posts/custom-sprites-v-104445556?utm_campaign=patron_engagement&utm_source=post_link&utm_id=bd11a967-9675-4139-a76f-bac501b8676e
 
 # License Notes
 This project is licensed under the MIT License, but certain modules in the "in" folder have their own license files. Anything in the "sprites" folder is using a non-commercial license,
