@@ -46,22 +46,17 @@
             cbFaris = new ComboBox();
             cbGaluf = new ComboBox();
             cbLenna = new ComboBox();
-            picBoxKrile = new PictureBox();
             cbBartz = new ComboBox();
-            picBoxFaris = new PictureBox();
-            picBoxGaluf = new PictureBox();
-            picBoxLenna = new PictureBox();
-            picBoxBartz = new PictureBox();
-            txtLenna = new TextBox();
-            txtGaluf = new TextBox();
-            txtFaris = new TextBox();
-            txtKrile = new TextBox();
             lblBartz = new Label();
             lblLenna = new Label();
             lblGaluf = new Label();
             lblFaris = new Label();
             lblKrile = new Label();
             txtBartz = new TextBox();
+            txtLenna = new TextBox();
+            txtGaluf = new TextBox();
+            txtFaris = new TextBox();
+            txtKrile = new TextBox();
             lblCharaNames = new Label();
             btnApply = new Button();
             lblStatus = new Label();
@@ -71,27 +66,16 @@
             cbExdeath = new ComboBox();
             cbGilgamesh = new ComboBox();
             cbTycoon = new ComboBox();
-            picBoxExdeath = new PictureBox();
-            picBoxGilgamesh = new PictureBox();
-            picBoxTycoon = new PictureBox();
-            txtGilgamesh = new TextBox();
-            txtExdeath = new TextBox();
             lblTycoon = new Label();
             lblGilgamesh = new Label();
             lblExdeath = new Label();
             txtTycoon = new TextBox();
+            txtGilgamesh = new TextBox();
+            txtExdeath = new TextBox();
             lblNpcs = new Label();
             flowLayoutPanel1.SuspendLayout();
             tblCharaNames.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)picBoxKrile).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)picBoxFaris).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)picBoxGaluf).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)picBoxLenna).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)picBoxBartz).BeginInit();
             tblNpcNames.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)picBoxExdeath).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)picBoxGilgamesh).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)picBoxTycoon).BeginInit();
             SuspendLayout();
             // 
             // txtSteamDir
@@ -240,56 +224,51 @@
             // 
             // tblCharaNames
             // 
-            tblCharaNames.ColumnCount = 4;
+            tblCharaNames.ColumnCount = 3;
             tblCharaNames.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 86F));
-            tblCharaNames.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50.96154F));
-            tblCharaNames.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 49.03846F));
-            tblCharaNames.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 396F));
+            tblCharaNames.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 12.57485F));
+            tblCharaNames.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 87.42515F));
             tblCharaNames.Controls.Add(cbKrile, 1, 4);
             tblCharaNames.Controls.Add(cbFaris, 1, 3);
             tblCharaNames.Controls.Add(cbGaluf, 1, 2);
             tblCharaNames.Controls.Add(cbLenna, 1, 1);
-            tblCharaNames.Controls.Add(picBoxKrile, 2, 4);
             tblCharaNames.Controls.Add(cbBartz, 1, 0);
-            tblCharaNames.Controls.Add(picBoxFaris, 2, 3);
-            tblCharaNames.Controls.Add(picBoxGaluf, 2, 2);
-            tblCharaNames.Controls.Add(picBoxLenna, 2, 1);
-            tblCharaNames.Controls.Add(picBoxBartz, 2, 0);
-            tblCharaNames.Controls.Add(txtLenna, 3, 1);
-            tblCharaNames.Controls.Add(txtGaluf, 3, 2);
-            tblCharaNames.Controls.Add(txtFaris, 3, 3);
-            tblCharaNames.Controls.Add(txtKrile, 3, 4);
             tblCharaNames.Controls.Add(lblBartz, 0, 0);
             tblCharaNames.Controls.Add(lblLenna, 0, 1);
             tblCharaNames.Controls.Add(lblGaluf, 0, 2);
             tblCharaNames.Controls.Add(lblFaris, 0, 3);
             tblCharaNames.Controls.Add(lblKrile, 0, 4);
-            tblCharaNames.Controls.Add(txtBartz, 3, 0);
+            tblCharaNames.Controls.Add(txtBartz, 2, 0);
+            tblCharaNames.Controls.Add(txtLenna, 2, 1);
+            tblCharaNames.Controls.Add(txtGaluf, 2, 2);
+            tblCharaNames.Controls.Add(txtFaris, 2, 3);
+            tblCharaNames.Controls.Add(txtKrile, 2, 4);
             tblCharaNames.Location = new Point(46, 154);
             tblCharaNames.Name = "tblCharaNames";
             tblCharaNames.RowCount = 5;
-            tblCharaNames.RowStyles.Add(new RowStyle(SizeType.Percent, 51.6129036F));
-            tblCharaNames.RowStyles.Add(new RowStyle(SizeType.Percent, 48.3870964F));
-            tblCharaNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 44F));
+            tblCharaNames.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tblCharaNames.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tblCharaNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 48F));
             tblCharaNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 47F));
-            tblCharaNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 42F));
+            tblCharaNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 51F));
             tblCharaNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tblCharaNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tblCharaNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tblCharaNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tblCharaNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tblCharaNames.Size = new Size(587, 227);
+            tblCharaNames.Size = new Size(587, 242);
             tblCharaNames.TabIndex = 12;
             // 
             // cbKrile
             // 
-            cbKrile.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             cbKrile.DrawMode = DrawMode.OwnerDrawVariable;
+            cbKrile.DropDownStyle = ComboBoxStyle.DropDownList;
             cbKrile.DropDownWidth = 200;
             cbKrile.FormattingEnabled = true;
-            cbKrile.Location = new Point(89, 187);
+            cbKrile.ItemHeight = 38;
+            cbKrile.Location = new Point(89, 194);
             cbKrile.Name = "cbKrile";
-            cbKrile.Size = new Size(47, 33);
+            cbKrile.Size = new Size(50, 44);
             cbKrile.TabIndex = 19;
             cbKrile.DrawItem += cbDrawCustomItem;
             cbKrile.MeasureItem += cbMeasureCustomItem;
@@ -297,13 +276,14 @@
             // 
             // cbFaris
             // 
-            cbFaris.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             cbFaris.DrawMode = DrawMode.OwnerDrawVariable;
+            cbFaris.DropDownStyle = ComboBoxStyle.DropDownList;
             cbFaris.DropDownWidth = 200;
             cbFaris.FormattingEnabled = true;
-            cbFaris.Location = new Point(89, 140);
+            cbFaris.ItemHeight = 38;
+            cbFaris.Location = new Point(89, 147);
             cbFaris.Name = "cbFaris";
-            cbFaris.Size = new Size(47, 33);
+            cbFaris.Size = new Size(50, 44);
             cbFaris.TabIndex = 18;
             cbFaris.DrawItem += cbDrawCustomItem;
             cbFaris.MeasureItem += cbMeasureCustomItem;
@@ -311,13 +291,14 @@
             // 
             // cbGaluf
             // 
-            cbGaluf.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             cbGaluf.DrawMode = DrawMode.OwnerDrawVariable;
+            cbGaluf.DropDownStyle = ComboBoxStyle.DropDownList;
             cbGaluf.DropDownWidth = 200;
             cbGaluf.FormattingEnabled = true;
-            cbGaluf.Location = new Point(89, 96);
+            cbGaluf.ItemHeight = 38;
+            cbGaluf.Location = new Point(89, 99);
             cbGaluf.Name = "cbGaluf";
-            cbGaluf.Size = new Size(47, 33);
+            cbGaluf.Size = new Size(50, 44);
             cbGaluf.TabIndex = 17;
             cbGaluf.DrawItem += cbDrawCustomItem;
             cbGaluf.MeasureItem += cbMeasureCustomItem;
@@ -325,126 +306,33 @@
             // 
             // cbLenna
             // 
-            cbLenna.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             cbLenna.DrawMode = DrawMode.OwnerDrawVariable;
+            cbLenna.DropDownStyle = ComboBoxStyle.DropDownList;
             cbLenna.DropDownWidth = 200;
             cbLenna.FormattingEnabled = true;
+            cbLenna.ItemHeight = 38;
             cbLenna.Location = new Point(89, 51);
             cbLenna.Name = "cbLenna";
-            cbLenna.Size = new Size(47, 33);
+            cbLenna.Size = new Size(50, 44);
             cbLenna.TabIndex = 16;
             cbLenna.DrawItem += cbDrawCustomItem;
             cbLenna.MeasureItem += cbMeasureCustomItem;
             cbLenna.SelectedIndexChanged += cbSelItemChanged;
             // 
-            // picBoxKrile
-            // 
-            picBoxKrile.Anchor = AnchorStyles.None;
-            picBoxKrile.ImageLocation = "";
-            picBoxKrile.Location = new Point(142, 187);
-            picBoxKrile.Name = "picBoxKrile";
-            picBoxKrile.Size = new Size(45, 37);
-            picBoxKrile.SizeMode = PictureBoxSizeMode.CenterImage;
-            picBoxKrile.TabIndex = 17;
-            picBoxKrile.TabStop = false;
-            // 
             // cbBartz
             // 
-            cbBartz.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             cbBartz.DrawMode = DrawMode.OwnerDrawVariable;
+            cbBartz.DropDownStyle = ComboBoxStyle.DropDownList;
             cbBartz.DropDownWidth = 200;
             cbBartz.FormattingEnabled = true;
+            cbBartz.ItemHeight = 38;
             cbBartz.Location = new Point(89, 3);
             cbBartz.Name = "cbBartz";
-            cbBartz.Size = new Size(47, 33);
+            cbBartz.Size = new Size(50, 44);
             cbBartz.TabIndex = 15;
             cbBartz.DrawItem += cbDrawCustomItem;
             cbBartz.MeasureItem += cbMeasureCustomItem;
             cbBartz.SelectedIndexChanged += cbSelItemChanged;
-            // 
-            // picBoxFaris
-            // 
-            picBoxFaris.Anchor = AnchorStyles.None;
-            picBoxFaris.ImageLocation = "";
-            picBoxFaris.Location = new Point(142, 141);
-            picBoxFaris.Name = "picBoxFaris";
-            picBoxFaris.Size = new Size(45, 38);
-            picBoxFaris.SizeMode = PictureBoxSizeMode.CenterImage;
-            picBoxFaris.TabIndex = 16;
-            picBoxFaris.TabStop = false;
-            // 
-            // picBoxGaluf
-            // 
-            picBoxGaluf.Anchor = AnchorStyles.None;
-            picBoxGaluf.ImageLocation = "";
-            picBoxGaluf.Location = new Point(142, 96);
-            picBoxGaluf.Name = "picBoxGaluf";
-            picBoxGaluf.Size = new Size(45, 38);
-            picBoxGaluf.SizeMode = PictureBoxSizeMode.CenterImage;
-            picBoxGaluf.TabIndex = 15;
-            picBoxGaluf.TabStop = false;
-            // 
-            // picBoxLenna
-            // 
-            picBoxLenna.Anchor = AnchorStyles.None;
-            picBoxLenna.ImageLocation = "";
-            picBoxLenna.Location = new Point(142, 51);
-            picBoxLenna.Name = "picBoxLenna";
-            picBoxLenna.Size = new Size(45, 39);
-            picBoxLenna.SizeMode = PictureBoxSizeMode.CenterImage;
-            picBoxLenna.TabIndex = 14;
-            picBoxLenna.TabStop = false;
-            // 
-            // picBoxBartz
-            // 
-            picBoxBartz.Anchor = AnchorStyles.None;
-            picBoxBartz.ImageLocation = "";
-            picBoxBartz.Location = new Point(142, 3);
-            picBoxBartz.Name = "picBoxBartz";
-            picBoxBartz.Size = new Size(45, 42);
-            picBoxBartz.SizeMode = PictureBoxSizeMode.CenterImage;
-            picBoxBartz.TabIndex = 13;
-            picBoxBartz.TabStop = false;
-            // 
-            // txtLenna
-            // 
-            txtLenna.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            txtLenna.Location = new Point(193, 51);
-            txtLenna.Name = "txtLenna";
-            txtLenna.Size = new Size(391, 32);
-            txtLenna.TabIndex = 15;
-            txtLenna.Text = "Lenna";
-            txtLenna.TextChanged += txtLenna_TextChanged;
-            // 
-            // txtGaluf
-            // 
-            txtGaluf.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            txtGaluf.Location = new Point(193, 96);
-            txtGaluf.Name = "txtGaluf";
-            txtGaluf.Size = new Size(391, 32);
-            txtGaluf.TabIndex = 17;
-            txtGaluf.Text = "Galuf";
-            txtGaluf.TextChanged += txtGaluf_TextChanged;
-            // 
-            // txtFaris
-            // 
-            txtFaris.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            txtFaris.Location = new Point(193, 140);
-            txtFaris.Name = "txtFaris";
-            txtFaris.Size = new Size(391, 32);
-            txtFaris.TabIndex = 19;
-            txtFaris.Text = "Faris";
-            txtFaris.TextChanged += txtFaris_TextChanged;
-            // 
-            // txtKrile
-            // 
-            txtKrile.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            txtKrile.Location = new Point(193, 187);
-            txtKrile.Name = "txtKrile";
-            txtKrile.Size = new Size(391, 32);
-            txtKrile.TabIndex = 21;
-            txtKrile.Text = "Krile";
-            txtKrile.TextChanged += txtKrile_TextChanged;
             // 
             // lblBartz
             // 
@@ -472,7 +360,7 @@
             // 
             lblGaluf.AutoSize = true;
             lblGaluf.Font = new Font("Arial", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblGaluf.Location = new Point(3, 103);
+            lblGaluf.Location = new Point(3, 106);
             lblGaluf.Margin = new Padding(3, 10, 3, 0);
             lblGaluf.Name = "lblGaluf";
             lblGaluf.Size = new Size(63, 25);
@@ -483,7 +371,7 @@
             // 
             lblFaris.AutoSize = true;
             lblFaris.Font = new Font("Arial", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblFaris.Location = new Point(3, 147);
+            lblFaris.Location = new Point(3, 154);
             lblFaris.Margin = new Padding(3, 10, 3, 0);
             lblFaris.Name = "lblFaris";
             lblFaris.Size = new Size(60, 25);
@@ -494,7 +382,7 @@
             // 
             lblKrile.AutoSize = true;
             lblKrile.Font = new Font("Arial", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblKrile.Location = new Point(3, 194);
+            lblKrile.Location = new Point(3, 201);
             lblKrile.Margin = new Padding(3, 10, 3, 0);
             lblKrile.Name = "lblKrile";
             lblKrile.Size = new Size(55, 25);
@@ -504,12 +392,52 @@
             // txtBartz
             // 
             txtBartz.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            txtBartz.Location = new Point(193, 3);
+            txtBartz.Location = new Point(152, 3);
             txtBartz.Name = "txtBartz";
-            txtBartz.Size = new Size(391, 32);
+            txtBartz.Size = new Size(432, 32);
             txtBartz.TabIndex = 13;
             txtBartz.Text = "Bartz";
             txtBartz.TextChanged += txtBartz_TextChanged;
+            // 
+            // txtLenna
+            // 
+            txtLenna.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            txtLenna.Location = new Point(152, 51);
+            txtLenna.Name = "txtLenna";
+            txtLenna.Size = new Size(432, 32);
+            txtLenna.TabIndex = 15;
+            txtLenna.Text = "Lenna";
+            txtLenna.TextChanged += txtLenna_TextChanged;
+            // 
+            // txtGaluf
+            // 
+            txtGaluf.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            txtGaluf.Location = new Point(152, 99);
+            txtGaluf.Name = "txtGaluf";
+            txtGaluf.Size = new Size(432, 32);
+            txtGaluf.TabIndex = 17;
+            txtGaluf.Text = "Galuf";
+            txtGaluf.TextChanged += txtGaluf_TextChanged;
+            // 
+            // txtFaris
+            // 
+            txtFaris.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            txtFaris.Location = new Point(152, 147);
+            txtFaris.Name = "txtFaris";
+            txtFaris.Size = new Size(432, 32);
+            txtFaris.TabIndex = 19;
+            txtFaris.Text = "Faris";
+            txtFaris.TextChanged += txtFaris_TextChanged;
+            // 
+            // txtKrile
+            // 
+            txtKrile.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            txtKrile.Location = new Point(152, 194);
+            txtKrile.Name = "txtKrile";
+            txtKrile.Size = new Size(432, 32);
+            txtKrile.TabIndex = 21;
+            txtKrile.Text = "Krile";
+            txtKrile.TextChanged += txtKrile_TextChanged;
             // 
             // lblCharaNames
             // 
@@ -564,48 +492,45 @@
             // 
             // tblNpcNames
             // 
-            tblNpcNames.ColumnCount = 4;
+            tblNpcNames.ColumnCount = 3;
             tblNpcNames.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 139F));
-            tblNpcNames.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50.96154F));
-            tblNpcNames.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 49.03846F));
-            tblNpcNames.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 344F));
+            tblNpcNames.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 13.8392859F));
+            tblNpcNames.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 86.16071F));
             tblNpcNames.Controls.Add(cbExdeath, 1, 2);
             tblNpcNames.Controls.Add(cbGilgamesh, 1, 1);
             tblNpcNames.Controls.Add(cbTycoon, 1, 0);
-            tblNpcNames.Controls.Add(picBoxExdeath, 2, 2);
-            tblNpcNames.Controls.Add(picBoxGilgamesh, 2, 1);
-            tblNpcNames.Controls.Add(picBoxTycoon, 2, 0);
-            tblNpcNames.Controls.Add(txtGilgamesh, 3, 1);
-            tblNpcNames.Controls.Add(txtExdeath, 3, 2);
             tblNpcNames.Controls.Add(lblTycoon, 0, 0);
             tblNpcNames.Controls.Add(lblGilgamesh, 0, 1);
             tblNpcNames.Controls.Add(lblExdeath, 0, 2);
-            tblNpcNames.Controls.Add(txtTycoon, 3, 0);
+            tblNpcNames.Controls.Add(txtTycoon, 2, 0);
+            tblNpcNames.Controls.Add(txtGilgamesh, 2, 1);
+            tblNpcNames.Controls.Add(txtExdeath, 2, 2);
             tblNpcNames.Location = new Point(725, 154);
             tblNpcNames.Name = "tblNpcNames";
             tblNpcNames.RowCount = 5;
-            tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Percent, 51.6129036F));
-            tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Percent, 48.3870964F));
-            tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 44F));
-            tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 47F));
+            tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Percent, 49F));
+            tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Percent, 51F));
+            tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
+            tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 49F));
             tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 42F));
             tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tblNpcNames.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tblNpcNames.Size = new Size(587, 227);
+            tblNpcNames.Size = new Size(587, 242);
             tblNpcNames.TabIndex = 101;
             // 
             // cbExdeath
             // 
-            cbExdeath.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             cbExdeath.DrawMode = DrawMode.OwnerDrawVariable;
+            cbExdeath.DropDownStyle = ComboBoxStyle.DropDownList;
             cbExdeath.DropDownWidth = 200;
             cbExdeath.FormattingEnabled = true;
-            cbExdeath.Location = new Point(142, 96);
+            cbExdeath.ItemHeight = 38;
+            cbExdeath.Location = new Point(142, 103);
             cbExdeath.Name = "cbExdeath";
-            cbExdeath.Size = new Size(47, 33);
+            cbExdeath.Size = new Size(50, 44);
             cbExdeath.TabIndex = 17;
             cbExdeath.DrawItem += cbDrawCustomItem;
             cbExdeath.MeasureItem += cbMeasureCustomItem;
@@ -613,13 +538,14 @@
             // 
             // cbGilgamesh
             // 
-            cbGilgamesh.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             cbGilgamesh.DrawMode = DrawMode.OwnerDrawVariable;
+            cbGilgamesh.DropDownStyle = ComboBoxStyle.DropDownList;
             cbGilgamesh.DropDownWidth = 200;
             cbGilgamesh.FormattingEnabled = true;
-            cbGilgamesh.Location = new Point(142, 51);
+            cbGilgamesh.ItemHeight = 38;
+            cbGilgamesh.Location = new Point(142, 52);
             cbGilgamesh.Name = "cbGilgamesh";
-            cbGilgamesh.Size = new Size(47, 33);
+            cbGilgamesh.Size = new Size(50, 44);
             cbGilgamesh.TabIndex = 16;
             cbGilgamesh.DrawItem += cbDrawCustomItem;
             cbGilgamesh.MeasureItem += cbMeasureCustomItem;
@@ -627,70 +553,18 @@
             // 
             // cbTycoon
             // 
-            cbTycoon.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             cbTycoon.DrawMode = DrawMode.OwnerDrawVariable;
+            cbTycoon.DropDownStyle = ComboBoxStyle.DropDownList;
             cbTycoon.DropDownWidth = 200;
             cbTycoon.FormattingEnabled = true;
+            cbTycoon.ItemHeight = 38;
             cbTycoon.Location = new Point(142, 3);
             cbTycoon.Name = "cbTycoon";
-            cbTycoon.Size = new Size(47, 33);
+            cbTycoon.Size = new Size(50, 44);
             cbTycoon.TabIndex = 15;
             cbTycoon.DrawItem += cbDrawCustomItem;
             cbTycoon.MeasureItem += cbMeasureCustomItem;
             cbTycoon.SelectedIndexChanged += cbSelItemChanged;
-            // 
-            // picBoxExdeath
-            // 
-            picBoxExdeath.Anchor = AnchorStyles.None;
-            picBoxExdeath.ImageLocation = "";
-            picBoxExdeath.Location = new Point(195, 96);
-            picBoxExdeath.Name = "picBoxExdeath";
-            picBoxExdeath.Size = new Size(45, 38);
-            picBoxExdeath.SizeMode = PictureBoxSizeMode.CenterImage;
-            picBoxExdeath.TabIndex = 15;
-            picBoxExdeath.TabStop = false;
-            // 
-            // picBoxGilgamesh
-            // 
-            picBoxGilgamesh.Anchor = AnchorStyles.None;
-            picBoxGilgamesh.ImageLocation = "";
-            picBoxGilgamesh.Location = new Point(195, 51);
-            picBoxGilgamesh.Name = "picBoxGilgamesh";
-            picBoxGilgamesh.Size = new Size(45, 39);
-            picBoxGilgamesh.SizeMode = PictureBoxSizeMode.CenterImage;
-            picBoxGilgamesh.TabIndex = 14;
-            picBoxGilgamesh.TabStop = false;
-            // 
-            // picBoxTycoon
-            // 
-            picBoxTycoon.Anchor = AnchorStyles.None;
-            picBoxTycoon.ImageLocation = "";
-            picBoxTycoon.Location = new Point(195, 3);
-            picBoxTycoon.Name = "picBoxTycoon";
-            picBoxTycoon.Size = new Size(45, 42);
-            picBoxTycoon.SizeMode = PictureBoxSizeMode.CenterImage;
-            picBoxTycoon.TabIndex = 13;
-            picBoxTycoon.TabStop = false;
-            // 
-            // txtGilgamesh
-            // 
-            txtGilgamesh.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            txtGilgamesh.Location = new Point(246, 51);
-            txtGilgamesh.Name = "txtGilgamesh";
-            txtGilgamesh.Size = new Size(338, 32);
-            txtGilgamesh.TabIndex = 15;
-            txtGilgamesh.Text = "Gilgamesh";
-            txtGilgamesh.TextChanged += txtGilgamesh_TextChanged;
-            // 
-            // txtExdeath
-            // 
-            txtExdeath.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            txtExdeath.Location = new Point(246, 96);
-            txtExdeath.Name = "txtExdeath";
-            txtExdeath.Size = new Size(338, 32);
-            txtExdeath.TabIndex = 17;
-            txtExdeath.Text = "Exdeath";
-            txtExdeath.TextChanged += txtExdeath_TextChanged;
             // 
             // lblTycoon
             // 
@@ -707,7 +581,7 @@
             // 
             lblGilgamesh.AutoSize = true;
             lblGilgamesh.Font = new Font("Arial", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblGilgamesh.Location = new Point(3, 58);
+            lblGilgamesh.Location = new Point(3, 59);
             lblGilgamesh.Margin = new Padding(3, 10, 3, 0);
             lblGilgamesh.Name = "lblGilgamesh";
             lblGilgamesh.Size = new Size(114, 25);
@@ -718,7 +592,7 @@
             // 
             lblExdeath.AutoSize = true;
             lblExdeath.Font = new Font("Arial", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblExdeath.Location = new Point(3, 103);
+            lblExdeath.Location = new Point(3, 110);
             lblExdeath.Margin = new Padding(3, 10, 3, 0);
             lblExdeath.Name = "lblExdeath";
             lblExdeath.Size = new Size(90, 25);
@@ -728,12 +602,32 @@
             // txtTycoon
             // 
             txtTycoon.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            txtTycoon.Location = new Point(246, 3);
+            txtTycoon.Location = new Point(204, 3);
             txtTycoon.Name = "txtTycoon";
-            txtTycoon.Size = new Size(338, 32);
+            txtTycoon.Size = new Size(380, 32);
             txtTycoon.TabIndex = 13;
             txtTycoon.Text = "King Tycoon";
             txtTycoon.TextChanged += txtTycoon_TextChanged;
+            // 
+            // txtGilgamesh
+            // 
+            txtGilgamesh.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            txtGilgamesh.Location = new Point(204, 52);
+            txtGilgamesh.Name = "txtGilgamesh";
+            txtGilgamesh.Size = new Size(380, 32);
+            txtGilgamesh.TabIndex = 15;
+            txtGilgamesh.Text = "Gilgamesh";
+            txtGilgamesh.TextChanged += txtGilgamesh_TextChanged;
+            // 
+            // txtExdeath
+            // 
+            txtExdeath.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            txtExdeath.Location = new Point(204, 103);
+            txtExdeath.Name = "txtExdeath";
+            txtExdeath.Size = new Size(380, 32);
+            txtExdeath.TabIndex = 17;
+            txtExdeath.Text = "Exdeath";
+            txtExdeath.TextChanged += txtExdeath_TextChanged;
             // 
             // lblNpcs
             // 
@@ -776,16 +670,8 @@
             flowLayoutPanel1.PerformLayout();
             tblCharaNames.ResumeLayout(false);
             tblCharaNames.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)picBoxKrile).EndInit();
-            ((System.ComponentModel.ISupportInitialize)picBoxFaris).EndInit();
-            ((System.ComponentModel.ISupportInitialize)picBoxGaluf).EndInit();
-            ((System.ComponentModel.ISupportInitialize)picBoxLenna).EndInit();
-            ((System.ComponentModel.ISupportInitialize)picBoxBartz).EndInit();
             tblNpcNames.ResumeLayout(false);
             tblNpcNames.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)picBoxExdeath).EndInit();
-            ((System.ComponentModel.ISupportInitialize)picBoxGilgamesh).EndInit();
-            ((System.ComponentModel.ISupportInitialize)picBoxTycoon).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -807,20 +693,10 @@
         private TableLayoutPanel tblCharaNames;
         private Label lblCharaNames;
         private Label lblBartz;
-        private TextBox txtBartz;
-        private TextBox txtLenna;
         private Label lblLenna;
-        private TextBox txtFaris;
         private Label lblFaris;
-        private TextBox txtGaluf;
         private Label lblGaluf;
         private Label lblKrile;
-        private TextBox txtKrile;
-        private PictureBox picBoxBartz;
-        private PictureBox picBoxKrile;
-        private PictureBox picBoxFaris;
-        private PictureBox picBoxGaluf;
-        private PictureBox picBoxLenna;
         private Button btnApply;
         private Label lblStatus;
         private ContextMenuStrip contextMenuStrip1;
@@ -837,9 +713,6 @@
         private ComboBox comboBox4;
         private PictureBox pictureBox1;
         private ComboBox comboBox5;
-        private PictureBox picBoxTycoon;
-        private PictureBox picBoxGilgamesh;
-        private PictureBox picBoxExdeath;
         private PictureBox pictureBox5;
         private TextBox textBox1;
         private TextBox textBox2;
@@ -854,5 +727,10 @@
         private Label label5;
         private TextBox txtTycoon;
         private Label lblNpcs;
+        private TextBox txtBartz;
+        private TextBox txtLenna;
+        private TextBox txtGaluf;
+        private TextBox txtFaris;
+        private TextBox txtKrile;
     }
 }

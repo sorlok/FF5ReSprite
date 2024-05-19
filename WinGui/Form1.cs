@@ -22,7 +22,6 @@ namespace WinGui
         // We also put the order of the names associated with them.
         public static List<string> AllCharas;
         public static List<ComboBox> AllCombos;
-        public static List<PictureBox> AllPicts;
         public static List<TextBox> AllTxts;
         public static List<bool> AllIsCharaType; // If true, use 'chara' rules; else, use 'npc' rules
 
@@ -41,10 +40,6 @@ namespace WinGui
             AllCombos = new List<ComboBox>
             {
                 cbBartz, cbLenna, cbGaluf, cbFaris, cbKrile, cbTycoon, cbGilgamesh, cbExdeath
-            };
-            AllPicts = new List<PictureBox>
-            {
-                picBoxBartz, picBoxLenna, picBoxGaluf, picBoxFaris, picBoxKrile, picBoxTycoon, picBoxGilgamesh, picBoxExdeath
             };
             AllTxts = new List<TextBox>
             {
@@ -215,15 +210,18 @@ namespace WinGui
             }
 
             // Update character pictures
-            if (readyToGo && AllPicts[0].Image == null)
-            {
-                Assets.LoadCharaFrames();
-                PictBoxes.UpdatePictBoxes();
-            }
+            //if (readyToGo && AllPicts[0].Image == null)
+            //{
+            //    Assets.LoadCharaFrames();
+            //    PictBoxes.UpdatePictBoxes();
+            //}
 
             // Set up our combo boxes
             if (readyToGo && AllCombos[0].DataSource == null)
             {
+                Assets.LoadCharaFrames();
+                PictBoxes.UpdatePictBoxes();
+
                 // Set data source; the rest should "just work" (tm)
                 for (int i = 0; i < AllCharas.Count; i++)
                 {
@@ -261,7 +259,7 @@ namespace WinGui
                     AllCombos[i].DataSource = ds;
 
                     // Well, we also need to do this...
-                    SetComboSprite(AllCombos[i], AllPicts[i], sprName);
+                    SetComboSprite(AllCombos[i], /*AllPicts[i],*/ sprName);
                 }
             }
 
@@ -306,13 +304,13 @@ namespace WinGui
         }
 
         // Helper: Set a combo box and pic box correctly
-        private void SetComboSprite(ComboBox cbox, PictureBox pic, string spriteName)
+        private void SetComboSprite(ComboBox cbox, /*PictureBox pic,*/ string spriteName)
         {
             //  TODO: re-write to use "SelectedItem" or something similar.
             cbox.SelectedItem = new TextAndValue(spriteName);
 
             // Update the pictbox
-            pic.Image = PictBoxes.CharaPicSprites[spriteName];
+            //pic.Image = PictBoxes.CharaPicSprites[spriteName];
         }
 
         private void btnDoStuff_Click(object sender, EventArgs e)
@@ -427,8 +425,8 @@ namespace WinGui
         private void cbMeasureCustomItem(object sender, MeasureItemEventArgs e)
         {
             // This should be the same regardless
-            e.ItemWidth = 50;
-            e.ItemHeight = 32;
+            e.ItemWidth = 100;
+            e.ItemHeight = 38;  // NOTE: Maybe only affects the list?
         }
 
         // Draw a custom combo box
@@ -459,7 +457,7 @@ namespace WinGui
         {
             // Figure out which box changed
             ComboBox cb = (ComboBox)sender;
-            PictureBox? pbox = null;
+            //PictureBox? pbox = null;
             string charaName = "";
 
             // Probably our best bet
@@ -468,16 +466,16 @@ namespace WinGui
                 if (cb == AllCombos[i])
                 {
                     charaName = AllCharas[i];
-                    pbox = AllPicts[i];
+                    //pbox = AllPicts[i];
                     break;
                 }
             }
 
             // Grr...
-            if (pbox == null)
-            {
-                throw new Exception("Unknown combo box.");
-            }
+            //if (pbox == null)
+            //{
+            //    throw new Exception("Unknown combo box.");
+            //}
 
             // What are we changing to?
             string newCharName = ((TextAndValue)cb.SelectedItem).Value;
@@ -486,7 +484,7 @@ namespace WinGui
             Config.SetSpriteName(charaName, newCharName);
 
             // And update the PictBox
-            pbox.Image = PictBoxes.CharaPicSprites[newCharName];
+            //pbox.Image = PictBoxes.CharaPicSprites[newCharName];
         }
 
         private void btnCleanse_Click(object sender, EventArgs e)

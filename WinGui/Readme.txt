@@ -35,5 +35,5 @@ Uninstalling the program:
 
 3.3 Delete ALL of the files shown in that folder. This includes the "FINAL FANTASY V.exe" file, the "FINAL FANTASY V_Data" folder, and others. (Don't worry, your save files are NOT stored here.)
 
-3.4 Back in STeam, right-click on FF5 and choose "Properties...", then "Installed Files" again. Now, click "Verify integrity of game files". Steam will scan the folder you just deleted and re-download all of the necessary FF5 files. 
+3.4 Back in Steam, right-click on FF5 and choose "Properties...", then "Installed Files" again. Now, click "Verify integrity of game files". Steam will scan the folder you just deleted and re-download all of the necessary FF5 files. 
 

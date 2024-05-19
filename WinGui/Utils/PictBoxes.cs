@@ -34,10 +34,10 @@ namespace WinGui.Utils
             }
 
             // Set images, crop, and zoom
-            for (int i = 0; i < Form1.AllCharas.Count; i++)
-            {
-                Form1.AllPicts[i].Image = CharaPicSprites[Form1.AllCharas[i]];
-            }
+            //for (int i = 0; i < Form1.AllCharas.Count; i++)
+            //{
+            //    Form1.AllPicts[i].Image = CharaPicSprites[Form1.AllCharas[i]];
+            //}
         }
 
         private static Bitmap GetCharaPic(string srcPath, Rectangle clipRect)
